@@ -51,7 +51,7 @@ public class AssetHandle<T> : AssetHandleBase
             Addressables.Release(AsyncHandle);            
         else
             Addressables.Release(AsyncHandles);
-        m_owner.RemovAssetHandle(this);
+        m_owner.RemoveAssetHandle(this);
     }
     
 }

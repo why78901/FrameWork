@@ -55,6 +55,7 @@
     <Compile Include="Assets\Scripts\ResourceManager\AssetOwnerManager.cs" />
     <Compile Include="Assets\Scripts\AOTFairyStatics.cs" />
     <Compile Include="Assets\Scripts\ResourceManager\AssetHandle.cs" />
+    <Compile Include="Assets\Scripts\AddressableTest.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Soft\Unity Hub\Editor\2023.2.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
