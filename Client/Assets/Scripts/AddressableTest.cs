@@ -16,6 +16,7 @@ public class AddressableTest : MonoBehaviour
 
     private void Update()
     {
+        
         if(Input.GetKeyDown(KeyCode.R))
         {
             if (_ah != null)
