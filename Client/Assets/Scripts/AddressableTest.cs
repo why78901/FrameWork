@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public class AddressableTest : MonoBehaviour
 {
@@ -16,11 +17,12 @@ public class AddressableTest : MonoBehaviour
 
     private void Update()
     {
-        
         if(Input.GetKeyDown(KeyCode.R))
         {
             if (_ah != null)
             {
+                // Addressables.ReleaseInstance(_ah.Result);
+                // GameObject.Destroy(_ah.Result);
                 _ah.Release();
             }
         }
